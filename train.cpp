@@ -5,7 +5,7 @@
 
 int main()
 {
-    struct fann *ann = fann_create_standard_array(num_layers, &input_layers[0]);
+    struct fann *ann = fann_create_standard_array(input_layers.size(), &input_layers[0]);
     struct fann_train_data * data = fann_read_train_from_file(training_file.c_str());
 
     fann_set_activation_function_hidden(ann, FANN_SIGMOID_SYMMETRIC);

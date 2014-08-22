@@ -13,11 +13,9 @@ constexpr float desired_error = (const float) 0.01;
 constexpr unsigned int max_epochs = 100; //how many times to train through entirety of training data
 constexpr unsigned int epochs_between_reports = 1;
 
-constexpr unsigned int num_layers = 4;
 constexpr unsigned int num_input = 8;
 constexpr unsigned int num_output = 2;
-constexpr unsigned int h1 = 5;
-constexpr unsigned int h2 = 3;
 
-std::vector<unsigned int> input_layers { num_input, h1, h2, num_output };
+//input amount, 5, 3, output amount for layer sizes
+std::vector<unsigned int> input_layers { num_input, 5, 3, num_output };
 #endif
