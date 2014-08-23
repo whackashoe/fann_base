@@ -5,6 +5,8 @@ A simple c++ FANN workspace, designed to get going quicker with FANN projects!
 
 Comes with the parallel OpenMP extension
 
+![fann base](http://i.imgur.com/3cvxjct.png)
+
 Requirements
 ===
 
